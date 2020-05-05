@@ -1,6 +1,8 @@
 body{
+    font-family: 'Jost', sans-serif;
     margin: 0px;
     background-color: cadetblue;
+    line-height: 30px;
     
 }
 header{
@@ -16,4 +18,33 @@ header img {
     border-radius: 150px;
     width: 360px;
     border: 10px solid #E71BB8 ;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+main img{
+    max-width: 100%;
+}
+
+a{color: blue;}
+a:hover{color: crimson;}
+
+footer{
+    background-color: teal;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    color: white
+}
+footer p{margin: 0px;}
+footer a {color: white;}
+footer a:hover {opacity:0,5;
+background-color: transparent;}
+
+p.caption{
+    color: white;
+    font-style: italic;
+    margin-top: 0px;
+    text-align: center;
 }
